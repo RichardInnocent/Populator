@@ -23,23 +23,23 @@ String name = personGenerator.getWeightedMaleForename();
 String prof = personGenerator.getWeightedFemaleProfession();
 
 **Creating an unweighted custom data set**  
-- *computers is an ArrayList<String>* 
 DataSet\<String\> computerModels = new DataSet\<\>(computers, DataType.OTHER);
+- *computers is an ArrayList<String>*
 
 **Creating a weighted custom data set**  
+DataSet\<String\> computerModels = new DataSet\<\>(computers, frequencies, DataType.OTHER);
 - *computers is an ArrayList\<String\>*  
 - *frequencies is an ArrayList\<Double\>*  
-DataSet\<String\> computerModels = new DataSet\<\>(computers, frequencies, DataType.OTHER);
 
 **Using the DataSet objects**
-- *computers is an ArrayList\<String\>*  
-- *frequencies is an ArrayList\<Double\>*  
 DataSet\<String\> computerModels = new DataSet\<\>(computers, frequencies, DataType.OTHER);  
 String computerModel = computerModels.getWeightedValue();
-
-**Using a custom list of surnames within PersonGenerator**
 - *computers is an ArrayList\<String\>*  
 - *frequencies is an ArrayList\<Double\>*  
+
+**Using a custom list of surnames within PersonGenerator**
 DataSet\<String\> computerModels = new DataSet\<\>(computers, frequencies, DataType.OTHER);  
 String computerModel = computerModels.getWeightedValue();  
 PersonGenerator personGenerator = PersonGenerator.useCustomDataSet(surnames);
+- *computers is an ArrayList\<String\>*  
+- *frequencies is an ArrayList\<Double\>*  
