@@ -13,33 +13,33 @@ This has built-in capabilities to generate the following:
 
 #Examples
 
-**Generating a random name**
+**Generating a random name**  
 String name = personGenerator.getWeightedFullName();
 
-**Generating a random male forename name**
+**Generating a random male forename name**  
 String name = personGenerator.getWeightedMaleForename();
 
-**Generating a random female profession**
+**Generating a random female profession** 
 String prof = personGenerator.getWeightedFemaleProfession();
 
-**Creating an unweighted custom data set**
-- *computers is an ArrayList<String>*
+**Creating an unweighted custom data set**  
+- *computers is an ArrayList<String>* 
 DataSet\<String\> computerModels = new DataSet\<\>(computers, DataType.OTHER);
 
-**Creating a weighted custom data set**
-- *computers is an ArrayList\<String\>*
-- *frequencies is an ArrayList\<Double\>*
-DataSet\<String\> computerModels = new DataSet\<\>(computers, frequencies, DataType.OTHER)
+**Creating a weighted custom data set**  
+- *computers is an ArrayList\<String\>*  
+- *frequencies is an ArrayList\<Double\>*  
+DataSet\<String\> computerModels = new DataSet\<\>(computers, frequencies, DataType.OTHER);
 
 **Using the DataSet objects**
-- *computers is an ArrayList\<String\>*
-- *frequencies is an ArrayList\<Double\>*
-DataSet\<String\> computerModels = new DataSet\<\>(computers, frequencies, DataType.OTHER)
+- *computers is an ArrayList\<String\>*  
+- *frequencies is an ArrayList\<Double\>*  
+DataSet\<String\> computerModels = new DataSet\<\>(computers, frequencies, DataType.OTHER);  
 String computerModel = computerModels.getWeightedValue();
 
 **Using a custom list of surnames within PersonGenerator**
-- *computers is an ArrayList\<String\>*
-- *frequencies is an ArrayList\<Double\>*
-DataSet\<String\> computerModels = new DataSet\<\>(computers, frequencies, DataType.OTHER)
-String computerModel = computerModels.getWeightedValue();
+- *computers is an ArrayList\<String\>*  
+- *frequencies is an ArrayList\<Double\>*  
+DataSet\<String\> computerModels = new DataSet\<\>(computers, frequencies, DataType.OTHER);  
+String computerModel = computerModels.getWeightedValue();  
 PersonGenerator personGenerator = PersonGenerator.useCustomDataSet(surnames);
