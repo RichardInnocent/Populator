@@ -19,7 +19,7 @@ String name = personGenerator.getWeightedFullName();
 **Generating a random male forename name**  
 String name = personGenerator.getWeightedMaleForename();
 
-**Generating a random female profession** 
+**Generating a random female profession**  
 String prof = personGenerator.getWeightedFemaleProfession();
 
 **Creating an unweighted custom data set**  
@@ -31,13 +31,13 @@ DataSet\<String\> computerModels = new DataSet\<\>(computers, frequencies, DataT
 - *computers is an ArrayList\<String\>*  
 - *frequencies is an ArrayList\<Double\>*  
 
-**Using the DataSet objects**
+**Using the DataSet objects**  
 DataSet\<String\> computerModels = new DataSet\<\>(computers, frequencies, DataType.OTHER);  
 String computerModel = computerModels.getWeightedValue();
 - *computers is an ArrayList\<String\>*  
 - *frequencies is an ArrayList\<Double\>*  
 
-**Using a custom list of surnames within PersonGenerator**
+**Using a custom list of surnames within PersonGenerator**  
 DataSet\<String\> computerModels = new DataSet\<\>(computers, frequencies, DataType.OTHER);  
 String computerModel = computerModels.getWeightedValue();  
 PersonGenerator personGenerator = PersonGenerator.useCustomDataSet(surnames);
