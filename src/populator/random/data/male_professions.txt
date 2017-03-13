@@ -1,0 +1,783 @@
+// STANDARD DATA SET: PROFESSIONS
+// Data adapted from
+// http://www.ranker.com/list/most-common-jobs-in-america/american-jobs
+
+// Data format:
+// Profession%frequencyOfProfession
+// The weightings are calculated from a sum of the total frequencies.
+// As a result, it's possible to reproduce a different standard data
+// set that can be based on percentage frequency (used here), or on
+// a count.
+
+// Comments and empty lines can be used throughout this document,
+// denoted by a double forward slash (//) as shown.
+
+Retail salesperson%4155190
+Cashier%3354170
+Office clerk%2789590
+Food preparation and serving worker%2692170
+Waiter%2244480
+Customer service representative%2146120
+Janitor%2058610
+Stock material mover laborer%2024180
+Secretary%1841020
+Stock clerk%1795970
+General manager%1708080
+Clerk%1675250
+Elementary school teacher%1485600
+Truck driver%1466740
+Nurse%1451090
+Manufacturing sales representative%1367210
+Administrative support worker%1359950
+Teacher assistant%1249380
+Bus and truck mechanic%1222770
+Maintenance and repair worker%1217820
+First-line supervisor of retail sales workers%1172070
+Executive secretary%1132070
+Accountant%1072490
+Secondary school teacher%1053140
+Security guard%1006880
+Receptionist%997080
+Business operations specialist%993980
+Home health aid%982840
+Team assembler%928170
+Restaurant Cook%901310
+Maids%865960
+Landscaping and groundskeeping worker%829350
+Food preparation worker%802650
+Delivery service driver%780260
+Construction laborer%777700
+First-line supervisor of food preparation and serving workers%773400
+Licensed practical and licensed vocational nurse%730290
+Shipping, receiving, and traffic clerk%687850
+Personal care aid%686030
+Packager%676870
+Middle school teacher%655090
+Police patrol officer%644300
+Carpenter%620410
+Childcare worker%611280
+Mechanic%587510
+Computer support specialist%579270
+Lawyer%561350
+Teller%556310
+First-line supervisor of production workers%555260
+Management analyst%536310
+Service Sales representative%531410
+Fast food Cook%525350
+Medical assistant%523260
+Industrial truck and tractor operator%518350
+Electrician%514760
+Dishwasher%505950
+Application Software developer%499280
+Computer system analyst%495800
+Bartender%495350
+Medical secretary%494650
+Billing and posting clerk%483440
+Financial manager%478940
+First-line supervisor of construction trades workers%474510
+School or special client bus driver%467610
+Correctional officers and jailer%457550
+Coffee shop counter attendant%446660
+Human resources specialist%417880
+First-line supervisor of mechanics, installers, and repairers%415900
+Counter and rental clerk%414730
+Inspector%410750
+Bill and account collector%399950
+Production worker%394270
+Bartender%390920
+Cafeteria cook%387700
+Technical products sales representative%381080
+Systems Software developer%378920
+Sales worker%371670
+Preschool teacher%369380
+Plumber%358790
+Social service assistant%357500
+Machinist%352650
+Hairdresser%349420
+Packaging and filling machine operator%342280
+Operating engineer%334730
+Computer programmer%333620
+Pharmacy technician%333500
+Network administrator%333210
+Coffee shop host,%329020
+Postal service mail carrier%324990
+Sales manager%319300
+Insurance sales agent%318800
+Welder%314260
+Firefighter%302400
+Dental assistant%294030
+Physician%293740
+Recreation worker%293430
+Computer system manager%288660
+Cleaner of vehicles and equipment%288110
+Loan officer%283330
+Health service manager%282990
+Financial services sales agent%276290
+Family social worker%276100
+Industrial machinery mechanic%275370
+Chief executive%273500
+Purchasing agent%272370
+Pharmacist%268030
+Production, planning, and expediting clerk%266170
+Claims investigator%262540
+Market research analyst%261780
+Amusement and recreation attendant%254630
+Office and administrative support worker%253190
+Civil engineer%249120
+Assembler%248090
+Legal assistant%247940
+Educational counselor%246890
+First-line supervisor of non-retail sales workers%244320
+Web developer%243330
+Administrative services manager%240320
+Mechanical engineer%234400
+Insurance claims and policy processing clerk%231570
+Production worker%229240
+Legal secretary%228700
+Crop laborer%228600
+Preschool and elementary school special education teacher%226920
+Public relations specialist%225590
+Fitness trainer%225490
+Air conditioning mechanic%224320
+Hotel desk clerk%222540
+School education administrator%222270
+Paramedic%221760
+Financial analyst%220810
+Data entry keyer%219530
+Radiologic technologist%216730
+Order clerk%211370
+Food server%205330
+Laundry worker%204820
+Interviewer%204730
+Compliance officer%204000
+Training and development specialist%203870
+Industrial engineer%202990
+Parts salesperson%201610
+Information and record clerk%200410
+First-line supervisor of vehicle operators%196420
+Healthcare support worker%193980
+Graphic designer%192240
+Construction manager%191430
+Printing press operator%191130
+Telecommunications equipment technician%190100
+Painter%189840
+Food service manager%186830
+Coach%184280
+Cost estimator%183790
+Metal and plastic cutting operators%182170
+Loan interviewer%181600
+Dispatcher%180540
+Electrical and electronic equipment assembler%180440
+Payroll clerk%180280
+Physical therapist%180280
+Transit bus driver%179700
+Dental hygienist%177520
+Health information technician%176090
+File clerk%174910
+Architectural manager%174720
+Kindergarten teacher%173330
+First-line supervisor of janitorial workers%172610
+Short order cook%171780
+First-line supervisor of laborers%166360
+Marketing manager%164590
+Clinical laboratory technologist%164430
+Meat, poultry, and fish cutter%163080
+Taxi driver%161940
+Self-enrichment education teacher%160990
+Clinical laboratory technician%156480
+Telecommunications line technician%156350
+Personal financial advisor%155360
+Financial specialist%154640
+Real estate sales agent%153740
+Sales worker%151280
+Human resources assistant%150090
+Electrical engineer%148770
+Librarian%148240
+Electrical and electronics engineering technician%147750
+Property manager%147110
+Sewing machine operator%147030
+Postal service mail processor%145690
+Advertising sales agent%145160
+Postsecondary health specialties teacher%144780
+Industrial production manager%143310
+Healthcare social worker%143080
+Highway maintenance worker%142530
+Secondary school special education teacher%141420
+Cement mason%140950
+Baker%140790
+Switchboard operator%138200
+Non-farm animal caretaker%135070
+Electronics engineer%133660
+First-line supervisor of personal service workers%131800
+Sheet metal worker%131600
+Automotive body repairer%129730
+Instructional coordinator%128780
+Refuse material collector%126360
+Butcher%125910
+Parking lot attendant%124590
+Mixing and blending machine operator%123840
+Computer-controlled machine tool operator%123600
+Court clerk%123510
+Maintenance worker%123220
+Travel clerk%121250
+Post-secondary vocational education teacher%120290
+Mental health social worker%119960
+Mail clerk%119960
+Machine feederr%119730
+Eligibility interviewer%118920
+Maintenance worker%118740
+Lifeguard%117540
+Aircraft mechanic%117510
+Community service manager%116480
+Metal and plastic molding operator%114760
+Speech-language pathologist%112530
+Social service specialist%112010
+Rehabilitation counselor%111490
+Criminal investigator%110640
+Post-secondary education administrator%110360
+Office machine repairer%110320
+Mental health counselor%110300
+Clerical library assistant%110210
+Respiratory therapist%109270
+Library technician%109240
+Mobile heavy equipment mechanic%108540
+Water treatment plant operator%108330
+Retail buyer%108220
+Graduate teaching assistant%107790
+Usher%107200
+Electrical power-line technician%105540
+Logistician%104800
+Database administrator%104080
+Compensation specialist%102830
+First-line supervisor of police and detectives%102200
+Typist%101450
+Clinical psychologist%100700
+First-line supervisor of landscaping workers%100630
+Middle school special education teacher%100510
+Occupational therapist%100300
+Education worker%99820
+Roofer%99280
+Editor%99160
+Family and general practitioner%97820
+Police, fire, and ambulance dispatcher%97740
+Food batchmaker%97220
+Insurance underwriter%95350
+Tire repairer%94120
+Medical scientist%93560
+Surgical technologist%92260
+Secondary school technical education teacher%91690
+Chefs and head cook%90510
+Distribution manager%90280
+Probation officer%89900
+Architectural drafter%89670
+Construction inspector%89270
+Slaughterer%88500
+Paper goods machine operator%88390
+Flight attendant%88020
+Health technologistn%87900
+Dentist%87700
+Architect%87700
+Postsecondary arts teacher%86860
+Automotive service attendant%86440
+Courier%85620
+Gaming dealer%85430
+Cabinetmaker%84170
+Producer%83520
+Computer operator%82410
+Ceiling tile installer%82320
+Environmental scientist%81690
+Physician assistant%81420
+Cargo agent%81390
+Chemist%80180
+Veterinary technologist%79870
+Structural metal fabricator%79540
+Post-secondary business teacher%79070
+Medical transcriptionist%78780
+Aerospace engineer%78450
+Coating, painting, and spraying machine operator%77870
+Civil engineering technician%77050
+Metal and plastic extruding operator%76260
+Product promoter%75790
+Procurement clerk%73650
+Biological technician%72940
+Psychiatric technician%72650
+Electrician%72390
+Personal care worker%71860
+Travel agent%70930
+Veterinary assistant%70530
+Metal and plastic buffing machine tool operator%70120
+Post-secondary English teacher%69880
+Machinery maintenance worker%69480
+Metal and plastic multiple machine tool operator%69330
+Crossing guard%68740
+Airline pilot%68580
+Tax collector%68530
+Brickmason%68520
+Secondary education literacy teacher%68510
+Human resource manager%67700
+Commercial equipment electrical and electronics repairer%67550
+Postal service clerk%67320
+New account clerk%67170
+Computer hardware engineer%66960
+Office machine operator%66580
+Tool and die maker%66530
+Recordkeeping checker%66480
+Sales engineer%66060
+Physical therapist assistant%65960
+Legislator%65710
+Residential advisor%65610
+Purchasing manager%65220
+Material forming machine operators%65100
+Psychiatric aid%64730
+Mechanical drafter%64440
+Merchandise displayer%64330
+Credit analyst%62680
+Assessor of real estate%62560
+Pest control worker%62490
+Operation research analyst%62210
+Optician%62200
+Industrial engineering technician%61630
+Post-secondary education teacher%61450
+Cutting and slicing machine operator%61360
+Motor vehicle operator%61230
+Woodworking machine operator%61130
+Massage therapist%60040
+Chemical technician%59440
+First-line supervisor of fire fighting workers%58800
+Steel worker%58460
+Budget analyst%58290
+Health educator%58150
+Plumbing assistant%57660
+Brokerage clerk%57600
+Photographic process worker%57540
+Security systems installer%57390
+Tax preparer%56990
+Event planner%56950
+Textile material presser%56600
+Healthcare practitioner%55720
+Social science technician%55360
+First-line supervisor of protective service workers%55190
+Actor%54740
+Occupational health and safety specialist%54680
+Photographer%54550
+Postsecondary biological science teacher%54540
+Veterinarian%54480
+Print binding and finishing worker%54230
+Post-secondary nursing instructor%54050
+Surveying and mapping technician%53870
+Credit authorizer%53770
+Dietitian%53510
+Public relations manager%53460
+Manicurist%51990
+Post-secondary mathematical science teacher%51980
+Surfacing equipment operator%51830
+Childcare center administrator%50700
+Title examiner%50490
+Internist%50070
+Environmental engineer%49800
+Pharmacy aide%49580
+Excavating operator%49140
+Electromechanical equipment assembler%48980
+Roustabout%48880
+Cardiovascular technologist%48720
+Prepress technician%48070
+Floral designer%47850
+Audio and video equipment technician%47510
+Medical equipment preparer%47310
+Carpenting assistant%46910
+Chemical equipment operator%46250
+Natural science manager%45920
+Physical therapist aid%45900
+Pipelayer%45320
+Reporter%45130
+Food preparation worker%44890
+Baggage porter%44740
+Translator%44200
+Mechanical engineering technician%44170
+Technical writer%43990
+Surveyor%43950
+Control and valve technician%43430
+Musician%43350
+Transportation equipment painters,%43300
+Surgeon%43230
+Chemical plant operator%43130
+Petroleum pump system operator%42850
+Clergy%42820
+Railroad conductor%42700
+Transportation security screener%42430
+Legal support worker%42160
+Construction and related worker%42140
+Real estate broker%41210
+Writers and author%40980
+Metal and plastic lathe operator%40970
+Glazier%40880
+Locomotive engineer%40750
+Utilities meter reader%40160
+Interior designer%40120
+Power plant operator%39930
+First-line supervisor of correctional officers%39920
+Crane and tower operator%39510
+Agricultural products grader%38950
+Urban and regional planner%38830
+Welding machine operators%38530
+Dental laboratory technician%38360
+Separating machine operators%38050
+Pruner%37540
+Wood sawing machine operators%37050
+Hazardous materials removal worker%36910
+Conveyor operator%36810
+Millwright%36670
+Oil, gas, and mining service unit operator%36620
+Entertainment attendant%36340
+Aircraft system assembler%36320
+Amusement machine servicer%36240
+Stationary engineer%35800
+Anesthesiologist%34820
+Post-secondary engineering teacher%34400
+Post-secondary psychology teacher%34350
+Engine assembler%33310
+Home appliance repairer%33180
+Crushing machine operators%33140
+Post-secondary computer science teacher%33080
+Marriage and family therapist%33050
+Medical equipment repairer%32980
+Transportation worker%32760
+Radio and television announcer%32520
+Forest and conservation technician%32290
+Molder%32250
+Advertising manager%32240
+Food cooking machine operator%32220
+Metal and plastic rolling machine operator%31900
+Farm animals worker%31880
+Sailor%31690
+Tile setter%31670
+Health diagnosing and treating practitioner%31390
+Brickmason assistant%31160
+Electronic home entertainment equipment technician%30840
+Geoscientist%30830
+Metal and plastic plating operators%30580
+Broadcast technician%30520
+Biological scientist%30430
+Farm equipment mechanic%30300
+Skincare specialist%30230
+Upholsterer%30210
+Pediatrician%30100
+Lodging manager%29920
+Commercial pilot%29900
+Compensation manager%29830
+Funeral attendant%29810
+Art director%29700
+Tour guides and escort%29690
+Credit counselor%29560
+Captain%29280
+Chemical engineer%28720
+Commercial and industrial designer%28670
+Post-secondary communications teacher%28590
+Environmental science technician%28480
+Social scientist%28420
+Private detective%28210
+Petroleum engineer%28210
+Post-secondary foreign language teacher%28100
+Mechanical insulation worker%28100
+Training manager%28070
+Material moving worker%28040
+Electrical and electronics drafter%27960
+Ophthalmic laboratory technician%27880
+Financial examiner%27860
+Textile twisting machine operator%27840
+Occupational therapy assistant%27720
+Hand grinding and polishing worker%27420
+Funeral service manager%27280
+Multimedia artists and animator%26560
+Optometrist%26480
+Plasterer%26430
+Chiropractor%26250
+Tailor%26250
+Judge%25900
+Social science research assistant%25830
+Carpet installer%25580
+Postmaster%25160
+Transportation attendant%25150
+Judicial law clerk%25150
+Outdoor power equipment mechanic%25010
+Computer and information research scientist%24900
+Physical scientist%24690
+Septic tank servicer%24350
+Transportation inspector%24280
+Metal worker%24150
+Agricultural equipment operator%24110
+Painter%23970
+Air traffic controller%23970
+Dietetic technician%23890
+Communication worker%23740
+Entertainer%23510
+Extraction worker assistant%23400
+Health and safety engineer%23390
+Floor, ceiling, and wall insulation worker%23380
+Post-secondary history teacher%23240
+Powerhouse repairer%23220
+Vegetation pesticide handler%23200
+Gaming supervisor%22960
+Logging equipment operator%22880
+Statistician%22830
+Biochemist%22800
+Railroad operator%22760
+Psychiatrist%22690
+Drilling machine operators%22390
+Forging machine operator%22110
+Materials engineer%21830
+Jeweler%21510
+Post-secondary philosophy teacher%21250
+Textile weaving machine operator%21190
+Post-secondary chemistry teacher%21150
+Semiconductor processor%20930
+Recreational therapist%20830
+Fence erector%20810
+Music composer%20640
+Milling machine operator%20520
+Elevator technician%20430
+Rotary drill operator%20230
+Desktop publisher%20060
+Obstetricians and gynecologist%19940
+Film editor%19930
+Concierge%19650
+Reinforcing iron worker%19590
+Booth cashier%19570
+Construction trade helper%19570
+First-line supervisor of farming workers%19540
+Ambulance driver%19440
+Rail car repairer%19280
+Fiberglass laminator%19060
+Boilermaker%19030
+Conservation scientist%18880
+Electric motor repairer%18740
+Food baking machine operator%18710
+Telephone operator%18650
+Nuclear engineer%18610
+Furnace operator%18470
+Environmental engineering technician%18450
+Court reporter%18430
+Microbiologist%18330
+Avionics technician%18320
+Actuarie%18320
+Cleaning equipment operator%18320
+Heat treating equipment operator%18300
+Survey researcher%17850
+Post-secondary fitness studies teacher%17720
+Taper%17690
+Zoologist%17440
+Post-secondary sociology teacher%17430
+Hand cutter%17420
+Bailiff%17310
+Dressing room attendant%17280
+Oil and gas derrick operator%16930
+Food science technician%16890
+Physicist%16860
+Motorboat mechanic%16850
+Religious activities and education director%16840
+Media and communication equipment worker%16820
+Motion picture camera operator%16760
+Landscape architect%16680
+Radiation therapist%16590
+Computer numerically controlled machine tool programmer%16360
+Athletic trainer%16290
+Earth driller%16200
+Electro-mechanical technician%15970
+Post-secondary political science teacher%15930
+Locksmiths and safe repairer%15850
+Explosives worker%15710
+Sound engineering technician%15650
+Gaming cage worker%15640
+Motor vehicles electronic equipment technician%15630
+Rail-track maintenance equipment operator%15520
+Statistical assistant%15490
+Furniture finisher%15400
+Referee%15250
+Metal-refining furnace operator%15210
+Fashion designer%15060
+Adhesive bonding machine operator%15060
+Animal control worker%15040
+Tire builder%15020
+Textile cutting machine operator%15000
+Coil winder%14930
+Motorcycle mechanic%14750
+Synthetic and glass fiber forming machine operator%14670
+Post-secondary law teacher%14620
+Secondary school technical education teacher%14600
+Administrative law judge%14310
+Shampooer%14220
+Automotive glass technician%14020
+Post-secondary criminal justice teacher%13860
+Rigger%13660
+Respiratory therapy technician%13570
+Agricultural inspector%13560
+Geological technician%13560
+Post-secondary physics teacher%13500
+Gas plant operator%13480
+Gaming book writer%13450
+Medical appliance technician%13320
+Textile worker%13300
+Economist%13250
+Mechanical door repairer%13240
+Continuous mining machine operator%13060
+Fire inspectors and investigator%13050
+Post-secondary economics teacher%13020
+Wellhead pumper%12960
+Audiologist%12860
+Transportation equipment technician%12830
+Proofreader%12770
+Textile bleaching and dyeing machine operator%12700
+Athletes and sports competitor%12660
+Precision instrument and equipment repairer%12640
+Choreographer%12390
+Forensic science technician%12390
+Painting assistant%12320
+Roofing assistant%12310
+Building cleaning worker%12280
+Soil and plant scientist%12120
+Slot supervisor%12020
+Tool sharpener%11930
+Stonemason%11920
+Emergency management director%11800
+Music agent%11790
+Cartographer%11670
+Dancer%11200
+Metal caster%11190
+Plant and system operator%10870
+Post-secondary space science teacher%10680
+Farm and home management advisor%10670
+Life scientist%10610
+Post-secondary agricultural sciences teacher%10600
+Curator%10550
+Food scientist%10480
+Truck loader%10390
+Museum technician%10390
+Fine artist%10320
+Insurance appraiser%10280
+Farm products purchasing agent%10250
+Power distributor%10100
+Occupational health and safety technician%10040
+Foundry mold and coremaker%10040
+Animal trainer%9740
+Radio equipment technician%9590
+Recreational vehicle service technician%9540
+Bicycle repairer%9530
+Floor layer%9480
+Forester%9470
+Ship engineer%9470
+Correspondence clerk%9470
+Pump operator%9440
+Motion picture projectionist%9440
+Parking enforcement worker%9430
+Post-secondary social work teacher%9370
+Barber%9360
+Podiatrist%9310
+Post-secondary cultural studies teacher%8980
+Cooling aequipment operator%8960
+Metal and plastic layout worker%8770
+Space scientist%8640
+Aerospace engineering technician%8480
+Materials scientist%8390
+Set and exhibit designer%8120
+Etchers and engraver%8090
+Multimedia collection specialist%7740
+Post-secondary architecture teacher%7620
+Door-to-door sales worker%7590
+Public address system announcer%7580
+Artist%7560
+Post-secondary social sciences teacher%7410
+Signal and track switch repairer%7400
+Fish and game warden%7240
+Occupational therapy aid%7180
+Religious worker%7090
+Forest and conservation worker%7040
+Nuclear technician%6960
+Hydrologist%6910
+Airfield operations specialist%6790
+Embalmer%6780
+Traffic technician%6730
+Extraction workers, all other%6660
+Mine cutting and channeling machine operator%6630
+Gaming surveillance officer%6620
+Subway perator%6360
+Geological engineer%6270
+Faller%6260
+Aircraft cargo handling supervisor%6160
+Fabric patternmaker%6060
+Leather worker%6010
+Plastic model maker%6000
+Orthotist%5940
+Post-secondary home economics teacher%5910
+Post-secondary anthropology and archeology teacher%5850
+Hand sewer%5770
+Mobile home installer%5760
+Floor sander%5740
+Marine engineer%5720
+Broadcast news analyst%5670
+Musical instrument technician%5650
+Roof bolter%5610
+Rail yard engineer%5600
+Orthodontist%5580
+Costume attendant%5490
+Oral surgeon%5330
+Archeologist%5100
+Post-secondary environmental science teacher%5090
+Nuclear power reactor operator%5080
+Archivist%5030
+Craft artist%4790
+Epidemiologist%4710
+Political scientist%4470
+Metal and plastic patternmaker%4390
+Post-secondary library science teacher%4370
+Post-secondary geography teacher%4250
+Pile-driver operator%4230
+Paperhanger%4040
+Gas pumping station operator%4040
+Commercial diver%3720
+Sociologist%3710
+Farmer%3680
+Terrazzo worker%3640
+Travel guide%3620
+Transit and railroad police officer%3540
+Rock splitter%3390
+Historian%3320
+Bridge and lock tender%3250
+Gaming manager%3230
+Rail transportation worker%3210
+Mining machine operator%3200
+Shoe machine operator%3180
+Logging worker%3130
+Mine shuttle car operator%3080
+Underground mining loading machine operator%3050
+Mathematician%2830
+Hoist and winch operator%2810
+Camera and photographic equipment repairer%2810
+Communications equipment operator%2780
+Agricultural engineer%2520
+Log grader%2480
+Motorboat operator%2480
+Animal scientist%2440
+Post-secondary forestry and conservation science teacher%2410
+Watch repairer%2240
+Performance makeup artist%2240
+Refractory materials repairer%2060
+Astronomer%1840
+Dredge operator%1720
+Wood model maker%1660
+Timing device assembler%1560
+Forest fire prevention specialist%1530
+Industrial-organizational psychologist%1420
+Animal breeder%1380
+Geographer%1300
+Mathematical science occupation%1290
+Segmental paver%1280
+Wood patternmaker%1240
+Locomotive firer%1130
+Model%1020
+Mathematical technician%960
+Radio operator%920
+Farm labor contractor%830
+Fishers and related fishing worker%700
+Fabric mender%690
+Prosthodontist%670
+Private household cook%400

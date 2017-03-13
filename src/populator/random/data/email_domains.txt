@@ -1,0 +1,126 @@
+// STANDARD DATA SET: EMAIL DOMAINS
+// Data adapted from
+// https://bitcointalk.org/index.php?topic=19628.0
+
+// Data format:
+// Domain%frequencyOfDomain
+// The weightings are calculated from a sum of the total frequencies.
+// As a result, it's possible to reproduce a different standard data
+// set that can be based on percentage frequency or on a count (used
+// here).
+
+// Comments and empty lines can be used throughout this document,
+// denoted by a double forward slash (//) as shown.
+
+gmail.com%20843
+yahoo.com%3099
+hotmail.com%3086
+gmx.de%604
+googlemail.com%521
+mail.ru%463
+web.de%411
+live.com%274
+aol.com%266
+gmx.net%249
+yandex.ru%231
+me.com%188
+msn.com%141
+comcast.net%137
+hushmail.com%135
+yahoo.de%127
+hotmail.co.uk%124
+lavabit.com%117
+sbcglobal.net%101
+safe-mail.net%90
+ymail.com%88
+yahoo.co.uk%88
+mac.com%87
+qq.com%63
+gmx.com%60
+hotmail.de%59
+ya.ru%57
+rambler.ru%54
+o2.pl%54
+abv.bg%53
+freenet.de%51
+mailinator.com%48
+gmx.at%48
+cox.net%48
+rocketmail.com%47
+bk.ru%47
+ukr.net%44
+163.COM%44
+arcor.de%44
+mail.com%42
+list.ru%42
+att.net%40
+aim.com%40
+live.co.uk%39
+inbox.ru%39
+verizon.net%38
+126.com%37
+hush.com%36
+t-online.de%35
+free.fr%34
+shaw.ca%33
+wp.pl%31
+hotmail.fr%31
+yahoo.com.au%28
+live.de%28
+yahoo.ca%27
+btinternet.com%26
+iki.fi%25
+hotmail.it%25
+yahoo.it%24
+mail.bg%24
+live.com.au%23
+fastmail.fm%23
+yahoo.fr%22
+seznam.cz%22
+gmx.ch%22
+bellsouth.net%21
+online.de%20
+live.se%20
+zoho.com%18
+tiscali.it%18
+pobox.com%18
+nym.hush.com%18
+i2pmail.org%18
+earthlink.net%18
+tut.by%17
+libero.it%17
+juno.com%17
+hush.ai%17
+snkmail.com%15
+charter.net%15
+sina.com%14
+riseup.net%14
+centrum.cz%14
+yahoo.es%13
+yahoo.com.vn%13
+yahoo.com.cn%13
+mit.edu%13
+live.dk%13
+live.ca%13
+inbox.lv%13
+i.ua%13
+telus.net%12
+telia.com%12
+telenet.be%12
+optonline.net%12
+klzlk.com%12
+yahoo.se%11
+yahoo.com.ar%11
+sharedaddy.com%11
+rochester.rr.com%11
+prime.gushi.org%11
+yahoo.com.br%10
+tlen.pl%10
+sporktronics.com%10
+spamgourmet.com%10
+live.nl%10
+live.fr%10
+inbox.com%10
+hmamail.com%10
+email.com%10
+bluewin.ch%10
