@@ -13,6 +13,9 @@ This has built-in capabilities to generate the following:
 
 ## Examples
 
+**Creating default PersonGenerator instance**
+PersonGenerator personGenerator = PersonGenerator.standardDataSet();
+
 **Generating a random name**  
 String name = personGenerator.getWeightedFullName();
 
@@ -40,6 +43,6 @@ String computerModel = computerModels.getWeightedValue();
 **Using a custom list of surnames within PersonGenerator**  
 DataSet\<String\> computerModels = new DataSet\<\>(computers, frequencies, DataType.OTHER);  
 String computerModel = computerModels.getWeightedValue();  
-PersonGenerator personGenerator = PersonGenerator.useCustomDataSet(surnames);
+PersonGenerator personGenerator = PersonGenerator.customDataSet(surnames);
 - *computers is an ArrayList\<String\>*  
 - *frequencies is an ArrayList\<Double\>*  
