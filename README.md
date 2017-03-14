@@ -1,5 +1,5 @@
 # Populator
-A fast and easy method of generating random but representative data.
+A fast, easy and thread-safe method of generating random but representative data.
 
 Values are weighted based on the US population.
 
@@ -46,3 +46,10 @@ String computerModel = computerModels.getWeightedValue();
 PersonGenerator personGenerator = PersonGenerator.customDataSet(surnames);
 - *computers is an ArrayList\<String\>*  
 - *frequencies is an ArrayList\<Double\>*  
+
+## Notes
+
+### The Data  
+The data provides only an extremely rough estimate of the true proportions, as the validity of the
+data cannot be guaranteed in all cases. Please feel free to contribute more up-to-date statistics
+to the the project.
