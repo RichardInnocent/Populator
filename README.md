@@ -9,38 +9,38 @@ This has built-in capabilities to generate the following:
 - Weighted male and female forms of professions, e.g. host/hostess (using PersonGenerator)
 - Weighted email domains (using PersonGenerator)
 - Dates (using DateGenerator)
-- *Any weighted or unweighted data* (using DataSets)
+- **Any weighted or unweighted data** (using DataSets)
 
 ## Examples
 
-**Creating default PersonGenerator instance**
+### Creating default PersonGenerator instance  
 PersonGenerator personGenerator = PersonGenerator.standardDataSet();
 
-**Generating a random name**  
+### Generating a random name  
 String name = personGenerator.getWeightedFullName();
 
-**Generating a random male forename name**  
+### Generating a random male forename name  
 String name = personGenerator.getWeightedMaleForename();
 
-**Generating a random female profession**  
+### Generating a random female profession  
 String prof = personGenerator.getWeightedFemaleProfession();
 
-**Creating an unweighted custom data set**  
+### Creating an unweighted custom data set  
 DataSet\<String\> computerModels = new DataSet\<\>(computers, DataType.OTHER);
 - *computers is an ArrayList<String>*
 
-**Creating a weighted custom data set**  
+### Creating a weighted custom data set  
 DataSet\<String\> computerModels = new DataSet\<\>(computers, frequencies, DataType.OTHER);
 - *computers is an ArrayList\<String\>*  
 - *frequencies is an ArrayList\<Double\>*  
 
-**Using the DataSet objects**  
+### Using the DataSet objects  
 DataSet\<String\> computerModels = new DataSet\<\>(computers, frequencies, DataType.OTHER);  
 String computerModel = computerModels.getWeightedValue();
 - *computers is an ArrayList\<String\>*  
 - *frequencies is an ArrayList\<Double\>*  
 
-**Using a custom list of surnames within PersonGenerator**  
+### Using a custom list of surnames within PersonGenerator  
 DataSet\<String\> computerModels = new DataSet\<\>(computers, frequencies, DataType.OTHER);  
 String computerModel = computerModels.getWeightedValue();  
 PersonGenerator personGenerator = PersonGenerator.customDataSet(surnames);
