@@ -11,7 +11,7 @@ This has built-in capabilities to generate the following:
 - Dates (using DateGenerator)
 - *Any weighted or unweighted data* (using DataSets)
 
-#Examples
+## Examples
 
 **Generating a random name**  
 String name = personGenerator.getWeightedFullName();
