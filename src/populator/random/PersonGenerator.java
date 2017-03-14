@@ -357,7 +357,7 @@ public class PersonGenerator {
 	 * A full name. Format: "forename surname".
 	 */
 	public String getRandomFullName() {
-		return getRandomForename() + getRandomSurname();
+		return getRandomForename() + " " + getRandomSurname();
 	}
 	
 	/**
@@ -371,7 +371,7 @@ public class PersonGenerator {
 	 * A full name. Format: "forename surname".
 	 */
 	public String getWeightedFullName() {
-		return getWeightedForename() + getWeightedSurname();
+		return getWeightedForename() + " " + getWeightedSurname();
 	}
 	
 	/**
