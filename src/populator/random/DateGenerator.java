@@ -26,7 +26,7 @@ public final class DateGenerator {
 	 * @throws IllegalArgumentException
 	 * This exception will be thrown if the start date specified is on or before the end date.
 	 */
-	private DateGenerator(LocalDate startDate, LocalDate endDate) throws IllegalArgumentException {
+	public DateGenerator(LocalDate startDate, LocalDate endDate) throws IllegalArgumentException {
 		// Do not allow the start date to be later than the end date
 		if (startDate.isAfter(endDate) || startDate.isEqual(endDate))
 			throw new IllegalArgumentException("Start date is on or after the end date.");
@@ -34,24 +34,6 @@ public final class DateGenerator {
 		this.startDate = startDate;
 		this.endDate = endDate;
 		this.daysBetween = getDaysBetweenDates();
-	}
-
-	/**
-	 * Creates a new DateGenerator instance, that will provide random dates between the specified
-	 * start date and end date. This class will not work with dates over 2,147,483,647 days apart
-	 * (approximately 5,883,516 years).
-	 * @param startDate
-	 * Randomly generated dates will never be produced before this date.
-	 * @param endDate
-	 * Randomly generated dates will never be produced after this after.
-	 * @return
-	 * A new DateGenerator object.
-	 * @throws IllegalArgumentException
-	 * This exception will be thrown if the start date specified is on or before the end date.
-	 */
-	public static DateGenerator between(LocalDate startDate, LocalDate endDate)
-			throws IllegalArgumentException {
-		return new DateGenerator(startDate, endDate);
 	}
 	
 	/**
